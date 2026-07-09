@@ -1,0 +1,11 @@
+# Content taxonomy manifest — maps each topic slug to its display name + footer CTA link.
+# The Sadhaka-Yantra pipeline reads this to brand the footer per topic. Add a block per new topic.
+topics:
+  educational/mulesoft:
+    name: MuleSoft Cookbook
+    footer_link: https://github.com/shakarbisetty/mulesoft-cookbook
+    tagline: Battle-tested DataWeave & integration recipes
+  # spiritual/gods/shiva:
+  #   name: Shiva
+  #   footer_link: https://github.com/shakarbisetty/<repo>
+  #   tagline: <devotional tagline>
