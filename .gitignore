@@ -1,0 +1,10 @@
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*~
+*.swp
+# logs / temp
+*.log
+*.tmp
+tmp/
+# keep media assets tracked: .png .jpg .jpeg .webp .mp4 .pdf .gif
