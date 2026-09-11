@@ -1,0 +1,49 @@
+{
+  "cell_id": "mule-inference-ollama__do__competent",
+  "written_at": "2026-09-11T02:42:41Z",
+  "receipt": null,
+  "files": [
+    {
+      "file": "mule-inference-ollama__do__competent.mmd",
+      "kind": "diagram_source",
+      "sha256": "ef4a67423e7a2141549191a6775b054a982fc951ab78508e7416056fa8da7d02",
+      "bytes": 450
+    },
+    {
+      "file": "mule-inference-ollama__do__competent.png",
+      "kind": "code_card",
+      "sha256": "16fac8c754f6391c8f092b36b1a9fcb1b6daf6c941ad13ee0d2a500e138cdd60",
+      "bytes": 394125
+    },
+    {
+      "file": "mule-inference-ollama__do__competent_code_card.json",
+      "kind": "other",
+      "sha256": "f796cc7c3a6ea6402086bad6ed9b0d7db15e4998dab3beca438ab3226619a43d",
+      "bytes": 166
+    },
+    {
+      "file": "mule-inference-ollama__do__competent_diagram.json",
+      "kind": "other",
+      "sha256": "fe340202f0db89e355d6b9b0a3f0c1bfb9d9d3ea04715a815f89328a4dbbb78c",
+      "bytes": 171
+    },
+    {
+      "file": "mule-inference-ollama__do__competent_diagram.png",
+      "kind": "diagram",
+      "sha256": "d688d3b4bd80b66c518f73142c6f6064dbcd7aef496a8365c2f04a47fa93d5f5",
+      "bytes": 54496
+    },
+    {
+      "file": "mule-inference-ollama__do__competent_trap.png",
+      "kind": "code_card_trap",
+      "sha256": "127ed24b4170c964606ae25ae4d31162fc881cb95b1509036f899075676d529c",
+      "bytes": 391701,
+      "tool": "freeze",
+      "version": "v0.2.2",
+      "source": "fail_localhost_base_url.xml",
+      "source_sha256": "64f9e9e28603b91b86f197e1bd62c05d759ac1795b7ef698fb1e916d3b616029",
+      "command": "bin/freeze state/proofs/mule-inference-ollama__do__competent/fail_localhost_base_url.xml -o state/visuals/mule-inference-ollama__do__competent_trap.png --language xml --config freeze.json --lines 1,28",
+      "font": "freeze.json names JetBrains Mono; fc-list shows DejaVu Sans only (fallback) \u2014 Phase C open Q3, 2026-09-10"
+    }
+  ]
+}

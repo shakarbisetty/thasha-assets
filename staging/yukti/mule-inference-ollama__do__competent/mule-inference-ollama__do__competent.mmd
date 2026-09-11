@@ -1,0 +1,7 @@
+flowchart LR
+  C["client.py: POST /ask with the prompt"] --> L["http:listener 0.0.0.0:8081"]
+  L --> P["ms-inference:chat-answer-prompt<br/>config ollama-openai-compatible"]
+  P -->|"openai-compatible-connection<br/>host.docker.internal:11434/v1<br/>model qwen2.5:14b, temperature 0"| O[("local Ollama")]
+  O --> P
+  P --> R["JSON response"]
+  X["fail_localhost_base_url.xml<br/>localhost:11434 = the container itself"] -. "connection refused" .-> R
