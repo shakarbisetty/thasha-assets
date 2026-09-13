@@ -1,0 +1,54 @@
+{
+  "cell_id": "dw-api-utils__do__competent",
+  "written_at": "2026-09-13T16:06:06Z",
+  "receipt": null,
+  "files": [
+    {
+      "file": "dw-api-utils__do__competent.attempt1.mmd",
+      "kind": "other",
+      "sha256": "8510f5d9f8f4f81ba5aed3320653bd684e29d0aa6c097425d87f421ef68f3bf6",
+      "bytes": 284
+    },
+    {
+      "file": "dw-api-utils__do__competent.mmd",
+      "kind": "diagram_source",
+      "sha256": "8510f5d9f8f4f81ba5aed3320653bd684e29d0aa6c097425d87f421ef68f3bf6",
+      "bytes": 284
+    },
+    {
+      "file": "dw-api-utils__do__competent.png",
+      "kind": "code_card",
+      "sha256": "dcce4a4135e79dcfacbccb8dc1db4e503a54f0adeba5dc7927ff621ac0af0a11",
+      "bytes": 66671,
+      "tool": "freeze",
+      "version": "v0.2.2",
+      "source": "t.dwl",
+      "source_sha256": "98cc9b74ae2da8726625817199eebf35564e7f9752228550e669713064e0786a",
+      "command": "freeze <source> -o <png> --language <lang> --config freeze.json",
+      "font": "freeze.json names JetBrains Mono; fc-list shows DejaVu Sans only (fallback) \u2014 Phase C open Q3, 2026-09-10"
+    },
+    {
+      "file": "dw-api-utils__do__competent_code_card.json",
+      "kind": "other",
+      "sha256": "f0225a0276999a79f87b591b6a548ce1313fb4bb690776e92e33ccf9730f6b83",
+      "bytes": 148
+    },
+    {
+      "file": "dw-api-utils__do__competent_diagram.json",
+      "kind": "other",
+      "sha256": "20da1a8a831479bb6eb5c61bb3e114aff0abf5128ff58ebb243b76369170e473",
+      "bytes": 153
+    },
+    {
+      "file": "dw-api-utils__do__competent_diagram.png",
+      "kind": "diagram",
+      "sha256": "6c9372efbc7922ea1b88fc7870d0935953cc37d10bddf93739549ef0d746e76f",
+      "bytes": 31316,
+      "tool": "kroki",
+      "engine": "mermaid",
+      "version": "0.31.2",
+      "source": "dw-api-utils__do__competent.mmd",
+      "source_sha256": "8510f5d9f8f4f81ba5aed3320653bd684e29d0aa6c097425d87f421ef68f3bf6"
+    }
+  ]
+}

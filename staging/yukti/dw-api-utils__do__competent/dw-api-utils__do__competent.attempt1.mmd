@@ -1,0 +1,5 @@
+flowchart LR
+  I["input.json"] -->|"payload"| T["t.dwl"]
+  T -->|"import modules::ApiUtils"| M["modules::ApiUtils"]
+  T -->|"output application/json"| R["run1.json"]
+  F["fail_noimport.dwl"] -.->|"Unable to resolve reference of ApiUtils::buildBulkResult"| E["run_fail_noimport.json"]
