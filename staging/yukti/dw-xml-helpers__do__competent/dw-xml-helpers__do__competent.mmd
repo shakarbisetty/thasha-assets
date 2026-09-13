@@ -1,0 +1,6 @@
+flowchart LR
+  I["input.json"] --> T["t.dwl"]
+  T --> V["XmlHelpers::validateStructure"]
+  V --> O["output application/json"]
+  O --> R["missing email"]
+  F["fail_noimport.dwl"] -.->|"Unable to resolve reference"| E["exit 255"]
