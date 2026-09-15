@@ -1,0 +1,54 @@
+{
+  "cell_id": "parallel-safe-chunking__do__competent",
+  "written_at": "2026-09-14T19:15:39Z",
+  "receipt": null,
+  "files": [
+    {
+      "file": "parallel-safe-chunking__do__competent.attempt1.mmd",
+      "kind": "other",
+      "sha256": "a92b29f6e3fc06bbd1730d37be7015f847490ca990a20707f732c386b08927a4",
+      "bytes": 160
+    },
+    {
+      "file": "parallel-safe-chunking__do__competent.mmd",
+      "kind": "diagram_source",
+      "sha256": "a92b29f6e3fc06bbd1730d37be7015f847490ca990a20707f732c386b08927a4",
+      "bytes": 160
+    },
+    {
+      "file": "parallel-safe-chunking__do__competent.png",
+      "kind": "code_card",
+      "sha256": "7c5e5276b5c2261bd8c5536fc2bf51a9ccdc9043bc8199422b9fc106acd2ae8a",
+      "bytes": 188174,
+      "tool": "freeze",
+      "version": "v0.2.2",
+      "source": "t.dwl",
+      "source_sha256": "0fcba767b73de4eb9d80c619396d2cb619e1d9a1df983bb21c16fd5a360ae5fe",
+      "command": "freeze <source> -o <png> --language <lang> --config freeze.json",
+      "font": "freeze.json names JetBrains Mono; fc-list shows DejaVu Sans only (fallback) \u2014 Phase C open Q3, 2026-09-10"
+    },
+    {
+      "file": "parallel-safe-chunking__do__competent_code_card.json",
+      "kind": "other",
+      "sha256": "82eafb1cf78a717af352c5e95315da48e524c341d1a7e7517ed11beff183e4ac",
+      "bytes": 168
+    },
+    {
+      "file": "parallel-safe-chunking__do__competent_diagram.json",
+      "kind": "other",
+      "sha256": "efc07ad21c2f5f688a234d0143ba714405200463aa80a9fbb7bdaf43f1d22146",
+      "bytes": 173
+    },
+    {
+      "file": "parallel-safe-chunking__do__competent_diagram.png",
+      "kind": "diagram",
+      "sha256": "acbfbf40dfc08bbb43354a2e24b6031b2ff09230b64e223f296198db4f2f0e8e",
+      "bytes": 11641,
+      "tool": "kroki",
+      "engine": "mermaid",
+      "version": "0.31.2",
+      "source": "parallel-safe-chunking__do__competent.mmd",
+      "source_sha256": "a92b29f6e3fc06bbd1730d37be7015f847490ca990a20707f732c386b08927a4"
+    }
+  ]
+}

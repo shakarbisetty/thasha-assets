@@ -1,0 +1,4 @@
+flowchart LR
+  A["input.json"] -->|"records"| B["t.dwl"]
+  B -->|"chunks"| C["run1.json"]
+  D["fail_noimport.dwl"] -.->|"exit 255"| E["run_fail_noimport.json"]
